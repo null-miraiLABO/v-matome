@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>このサイトについて</title>
+	<meta name="viewport" content="width=380px">
+	<link href="../Vtuber.css" rel="stylesheet">
+	<link href="../LiverN.html">
+	<link href="../LiverH.html">
+	<link href="../N1.html">
+	<link href="../N2.html">
+	<link href="../Liver.html">
+	<link href="../siteQ.html">
+	<link href="../Liverlist.html">
+	<style>
+		div {
+			margin: 1em;
+		}
+
+		.err {
+			color: #ff0000;
+		}
+
+	</style>
+</head>
+
+<body>
+	<header style="text-align: center;background: white;">
+		<img src="img/title.png" class="title" style="width: 90%">
+	</header>
+	<main style="text-align: center;">
+		<ul class="ddmenu">
+			<li><a href="/v-matome/">HOME</a>
+			<li><a href="../Liverlist.html">ライバーリスト</a>
+			<li><a href="#">このサイトについて</a>
+			</li>
+			</li>
+			</li>
+		</ul>
+		</header>
+		<main>
+			<h1>●VTuberまとめサイトの使い方！</h1>
+			<img src="../img/siteQ.png" style="width: 80%">
+			<h4 style="text-align: center">sotugyouseisaku</h4>
+		</main>
+
+		<p>アンケート</p>
+		<form method="post" enctype="multipart/form-data">
+			{{Err}}
+			<div>
+				お名前:<br>
+				<input type="text" name="name" value="{{name}}"><br>
+			</div>
+			<div>
+				メール:<br>
+				<input type="text" name="mail" value="{{mail}}"><br>
+			</div>
+			<div>
+				お問い合わせ内容:<br>
+				<textarea name="mes">{{mes}}</textarea><br>
+			</div>
+			<div>
+				<input type="submit" name="chk" value="確認画面へ"><br>
+			</div>
+		</form>
+
+
+		<footer>
+
+		</footer>
+</body>
+
+</html>

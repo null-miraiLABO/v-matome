@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>アンケート</title>
+</head>
+
+<body>
+
+	<h2>アンケート</h2>
+	<p>
+		ご協力ありがとうございました。
+	</p>
+	<p>
+		<a href="/v-matome/">HOMEに戻る</a>
+	</p>
+
+</body>
+</html>
